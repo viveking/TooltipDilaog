@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,85 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TooltipDilaog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HvD-3a-awh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="F9o-C5-mcm">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <view hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zSv-oD-skP" customClass="TooltipView" customModule="TooltipDilaog" customModuleProvider="target">
+                                <rect key="frame" x="20" y="124" width="335" height="574"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RUW-wX-Bnc">
+                                        <rect key="frame" x="8" y="68" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qod-bp-B7Z">
+                                        <rect key="frame" x="126" y="207" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ce-mG-Ldy">
+                                        <rect key="frame" x="263" y="68" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="arrowTopLeft" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="arrowTopCenter" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="arrowTopRight" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="arrowBottomLeft" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="arrowBottomCenter" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="arrowBottomRight" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RG8-ei-OVt">
+                                <rect key="frame" x="271" y="728" width="88" height="30"/>
+                                <color key="backgroundColor" red="0.094117647060000004" green="0.46666666670000001" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Show Tooltip"/>
+                                <connections>
+                                    <action selector="btnPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J3r-u0-376"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RG8-ei-OVt" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="CRJ-A9-PDp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zSv-oD-skP" secondAttribute="bottom" constant="80" id="CaC-x7-IlS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RG8-ei-OVt" secondAttribute="bottom" constant="20" id="IyN-JW-SCh"/>
+                            <constraint firstItem="HvD-3a-awh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="KZV-Gi-gfY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RG8-ei-OVt" secondAttribute="trailing" constant="16" id="Rw2-xL-2A8"/>
+                            <constraint firstItem="HvD-3a-awh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="SJf-UH-0fz"/>
+                            <constraint firstItem="HvD-3a-awh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TuO-90-feo"/>
+                            <constraint firstItem="zSv-oD-skP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VJT-1J-Fkj"/>
+                            <constraint firstItem="zSv-oD-skP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="YIR-Lg-fyI"/>
+                            <constraint firstItem="zSv-oD-skP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="gN4-k8-I0w"/>
+                            <constraint firstItem="HvD-3a-awh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="u0f-cJ-pWT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="blurEffectView" destination="HvD-3a-awh" id="kEA-Fa-05O"/>
+                        <outlet property="btn" destination="RG8-ei-OVt" id="i3l-jn-mDh"/>
+                        <outlet property="tooltipDialog" destination="zSv-oD-skP" id="eYD-zB-bQd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="25.862068965517242"/>
         </scene>
     </scenes>
 </document>

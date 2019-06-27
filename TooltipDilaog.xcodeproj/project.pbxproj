@@ -14,6 +14,7 @@
 		778C5D4522C4931700782E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778C5D4322C4931700782E3D /* LaunchScreen.storyboard */; };
 		778C5D5022C4931700782E3D /* TooltipDilaogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C5D4F22C4931700782E3D /* TooltipDilaogTests.swift */; };
 		778C5D5B22C4931700782E3D /* TooltipDilaogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C5D5A22C4931700782E3D /* TooltipDilaogUITests.swift */; };
+		778C5D6922C49C2400782E3D /* TooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C5D6822C49C2400782E3D /* TooltipView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		778C5D5622C4931700782E3D /* TooltipDilaogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TooltipDilaogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		778C5D5A22C4931700782E3D /* TooltipDilaogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipDilaogUITests.swift; sourceTree = "<group>"; };
 		778C5D5C22C4931700782E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778C5D6822C49C2400782E3D /* TooltipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				778C5D4122C4931700782E3D /* Assets.xcassets */,
 				778C5D4322C4931700782E3D /* LaunchScreen.storyboard */,
 				778C5D4622C4931700782E3D /* Info.plist */,
+				778C5D6822C49C2400782E3D /* TooltipView.swift */,
 			);
 			path = TooltipDilaog;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				778C5D3D22C4931500782E3D /* ViewController.swift in Sources */,
 				778C5D3B22C4931500782E3D /* AppDelegate.swift in Sources */,
+				778C5D6922C49C2400782E3D /* TooltipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
