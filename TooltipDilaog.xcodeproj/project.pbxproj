@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		778C5D3B22C4931500782E3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C5D3A22C4931500782E3D /* AppDelegate.swift */; };
+		778C5D3D22C4931500782E3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C5D3C22C4931500782E3D /* ViewController.swift */; };
+		778C5D4022C4931500782E3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778C5D3E22C4931500782E3D /* Main.storyboard */; };
+		778C5D4222C4931700782E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778C5D4122C4931700782E3D /* Assets.xcassets */; };
+		778C5D4522C4931700782E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778C5D4322C4931700782E3D /* LaunchScreen.storyboard */; };
+		778C5D5022C4931700782E3D /* TooltipDilaogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C5D4F22C4931700782E3D /* TooltipDilaogTests.swift */; };
+		778C5D5B22C4931700782E3D /* TooltipDilaogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C5D5A22C4931700782E3D /* TooltipDilaogUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		778C5D4C22C4931700782E3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 778C5D2F22C4931500782E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778C5D3622C4931500782E3D;
+			remoteInfo = TooltipDilaog;
+		};
+		778C5D5722C4931700782E3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 778C5D2F22C4931500782E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778C5D3622C4931500782E3D;
+			remoteInfo = TooltipDilaog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		778C5D3722C4931500782E3D /* TooltipDilaog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TooltipDilaog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		778C5D3A22C4931500782E3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		778C5D3C22C4931500782E3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		778C5D3F22C4931500782E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		778C5D4122C4931700782E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		778C5D4422C4931700782E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		778C5D4622C4931700782E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778C5D4B22C4931700782E3D /* TooltipDilaogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TooltipDilaogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		778C5D4F22C4931700782E3D /* TooltipDilaogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipDilaogTests.swift; sourceTree = "<group>"; };
+		778C5D5122C4931700782E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778C5D5622C4931700782E3D /* TooltipDilaogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TooltipDilaogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		778C5D5A22C4931700782E3D /* TooltipDilaogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipDilaogUITests.swift; sourceTree = "<group>"; };
+		778C5D5C22C4931700782E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		778C5D3422C4931500782E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778C5D4822C4931700782E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778C5D5322C4931700782E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		778C5D2E22C4931500782E3D = {
+			isa = PBXGroup;
+			children = (
+				778C5D3922C4931500782E3D /* TooltipDilaog */,
+				778C5D4E22C4931700782E3D /* TooltipDilaogTests */,
+				778C5D5922C4931700782E3D /* TooltipDilaogUITests */,
+				778C5D3822C4931500782E3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		778C5D3822C4931500782E3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				778C5D3722C4931500782E3D /* TooltipDilaog.app */,
+				778C5D4B22C4931700782E3D /* TooltipDilaogTests.xctest */,
+				778C5D5622C4931700782E3D /* TooltipDilaogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		778C5D3922C4931500782E3D /* TooltipDilaog */ = {
+			isa = PBXGroup;
+			children = (
+				778C5D3A22C4931500782E3D /* AppDelegate.swift */,
+				778C5D3C22C4931500782E3D /* ViewController.swift */,
+				778C5D3E22C4931500782E3D /* Main.storyboard */,
+				778C5D4122C4931700782E3D /* Assets.xcassets */,
+				778C5D4322C4931700782E3D /* LaunchScreen.storyboard */,
+				778C5D4622C4931700782E3D /* Info.plist */,
+			);
+			path = TooltipDilaog;
+			sourceTree = "<group>";
+		};
+		778C5D4E22C4931700782E3D /* TooltipDilaogTests */ = {
+			isa = PBXGroup;
+			children = (
+				778C5D4F22C4931700782E3D /* TooltipDilaogTests.swift */,
+				778C5D5122C4931700782E3D /* Info.plist */,
+			);
+			path = TooltipDilaogTests;
+			sourceTree = "<group>";
+		};
+		778C5D5922C4931700782E3D /* TooltipDilaogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				778C5D5A22C4931700782E3D /* TooltipDilaogUITests.swift */,
+				778C5D5C22C4931700782E3D /* Info.plist */,
+			);
+			path = TooltipDilaogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		778C5D3622C4931500782E3D /* TooltipDilaog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778C5D5F22C4931700782E3D /* Build configuration list for PBXNativeTarget "TooltipDilaog" */;
+			buildPhases = (
+				778C5D3322C4931500782E3D /* Sources */,
+				778C5D3422C4931500782E3D /* Frameworks */,
+				778C5D3522C4931500782E3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TooltipDilaog;
+			productName = TooltipDilaog;
+			productReference = 778C5D3722C4931500782E3D /* TooltipDilaog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		778C5D4A22C4931700782E3D /* TooltipDilaogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778C5D6222C4931700782E3D /* Build configuration list for PBXNativeTarget "TooltipDilaogTests" */;
+			buildPhases = (
+				778C5D4722C4931700782E3D /* Sources */,
+				778C5D4822C4931700782E3D /* Frameworks */,
+				778C5D4922C4931700782E3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				778C5D4D22C4931700782E3D /* PBXTargetDependency */,
+			);
+			name = TooltipDilaogTests;
+			productName = TooltipDilaogTests;
+			productReference = 778C5D4B22C4931700782E3D /* TooltipDilaogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		778C5D5522C4931700782E3D /* TooltipDilaogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778C5D6522C4931700782E3D /* Build configuration list for PBXNativeTarget "TooltipDilaogUITests" */;
+			buildPhases = (
+				778C5D5222C4931700782E3D /* Sources */,
+				778C5D5322C4931700782E3D /* Frameworks */,
+				778C5D5422C4931700782E3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				778C5D5822C4931700782E3D /* PBXTargetDependency */,
+			);
+			name = TooltipDilaogUITests;
+			productName = TooltipDilaogUITests;
+			productReference = 778C5D5622C4931700782E3D /* TooltipDilaogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		778C5D2F22C4931500782E3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Affixus;
+				TargetAttributes = {
+					778C5D3622C4931500782E3D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					778C5D4A22C4931700782E3D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 778C5D3622C4931500782E3D;
+					};
+					778C5D5522C4931700782E3D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 778C5D3622C4931500782E3D;
+					};
+				};
+			};
+			buildConfigurationList = 778C5D3222C4931500782E3D /* Build configuration list for PBXProject "TooltipDilaog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 778C5D2E22C4931500782E3D;
+			productRefGroup = 778C5D3822C4931500782E3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				778C5D3622C4931500782E3D /* TooltipDilaog */,
+				778C5D4A22C4931700782E3D /* TooltipDilaogTests */,
+				778C5D5522C4931700782E3D /* TooltipDilaogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		778C5D3522C4931500782E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778C5D4522C4931700782E3D /* LaunchScreen.storyboard in Resources */,
+				778C5D4222C4931700782E3D /* Assets.xcassets in Resources */,
+				778C5D4022C4931500782E3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778C5D4922C4931700782E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778C5D5422C4931700782E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		778C5D3322C4931500782E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778C5D3D22C4931500782E3D /* ViewController.swift in Sources */,
+				778C5D3B22C4931500782E3D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778C5D4722C4931700782E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778C5D5022C4931700782E3D /* TooltipDilaogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778C5D5222C4931700782E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778C5D5B22C4931700782E3D /* TooltipDilaogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		778C5D4D22C4931700782E3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778C5D3622C4931500782E3D /* TooltipDilaog */;
+			targetProxy = 778C5D4C22C4931700782E3D /* PBXContainerItemProxy */;
+		};
+		778C5D5822C4931700782E3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778C5D3622C4931500782E3D /* TooltipDilaog */;
+			targetProxy = 778C5D5722C4931700782E3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		778C5D3E22C4931500782E3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				778C5D3F22C4931500782E3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		778C5D4322C4931700782E3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				778C5D4422C4931700782E3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		778C5D5D22C4931700782E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		778C5D5E22C4931700782E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		778C5D6022C4931700782E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NB28L567LK;
+				INFOPLIST_FILE = TooltipDilaog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.affixus.TooltipDilaog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		778C5D6122C4931700782E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NB28L567LK;
+				INFOPLIST_FILE = TooltipDilaog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.affixus.TooltipDilaog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		778C5D6322C4931700782E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NB28L567LK;
+				INFOPLIST_FILE = TooltipDilaogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.affixus.TooltipDilaogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TooltipDilaog.app/TooltipDilaog";
+			};
+			name = Debug;
+		};
+		778C5D6422C4931700782E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NB28L567LK;
+				INFOPLIST_FILE = TooltipDilaogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.affixus.TooltipDilaogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TooltipDilaog.app/TooltipDilaog";
+			};
+			name = Release;
+		};
+		778C5D6622C4931700782E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NB28L567LK;
+				INFOPLIST_FILE = TooltipDilaogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.affixus.TooltipDilaogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TooltipDilaog;
+			};
+			name = Debug;
+		};
+		778C5D6722C4931700782E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NB28L567LK;
+				INFOPLIST_FILE = TooltipDilaogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.affixus.TooltipDilaogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TooltipDilaog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		778C5D3222C4931500782E3D /* Build configuration list for PBXProject "TooltipDilaog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778C5D5D22C4931700782E3D /* Debug */,
+				778C5D5E22C4931700782E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		778C5D5F22C4931700782E3D /* Build configuration list for PBXNativeTarget "TooltipDilaog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778C5D6022C4931700782E3D /* Debug */,
+				778C5D6122C4931700782E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		778C5D6222C4931700782E3D /* Build configuration list for PBXNativeTarget "TooltipDilaogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778C5D6322C4931700782E3D /* Debug */,
+				778C5D6422C4931700782E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		778C5D6522C4931700782E3D /* Build configuration list for PBXNativeTarget "TooltipDilaogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778C5D6622C4931700782E3D /* Debug */,
+				778C5D6722C4931700782E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 778C5D2F22C4931500782E3D /* Project object */;
+}
